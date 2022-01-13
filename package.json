@@ -1,7 +1,7 @@
 {
-    "name": "{{name}}",
+    "name": "jw-cli",
     "version": "1.0.0",
-    "description": "{{description}}",
+    "description": "work cli",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
         "url": "git+https://github.com/wing-king/JW-CLI.git"
     },
     "keywords": [],
-    "author": "{{author}}",
+    "author": "",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/wing-king/JW-CLI/issues"

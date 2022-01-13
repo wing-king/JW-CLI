@@ -31,9 +31,14 @@ program.command('add <template> [project]').description('add template  [tool]').
 })
 
 
-program.command('create <name>').description('create project name ').action(async(res) => {
-    const data = await create(res)
-    console.log('data :>> ', data);
+program.command('create <name>').description('create project name ').action(async(name) => {
+    const data = await create(name)
+    console.log(`
+    项目安装成功
+    cd ${name}
+    npm install/i 
+    npm  run start 运行项目
+    `);
 })
 
 
